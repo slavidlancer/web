@@ -1,0 +1,33 @@
+body {
+    /* counter-reset: section; */
+    counter-reset: second_section;
+}
+
+h1 {
+    counter-reset: subsection;
+}
+
+h1::before {
+    counter-increment: second_section;
+    content: "Section " counter(second_section) ". ";
+}
+
+/* h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+} */
+
+h3::before {
+    counter-increment: subsection;
+    content: counter(second_section) ". " counter(subsection) ". ";
+}
+
+ol {
+    counter-reset: order_counter;
+    list-style-type: none;
+}
+
+li::before {
+    counter-increment: order_counter;
+    content: counters(order_counter, ".") ". ";
+}

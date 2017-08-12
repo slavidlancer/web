@@ -1,0 +1,27 @@
+p::first-line {
+    color: red;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: blue;
+    font-size: xx-large;
+}
+
+p.outro::first-letter {
+    color:black;
+    font-size: 200%;
+}
+
+h1::before {
+    content: url(img/smiley.gif);
+}
+
+h1::after {
+    content: url(img/smiley.gif);
+}
+
+::-moz-selection {
+    color: green;
+    background: gray;
+}

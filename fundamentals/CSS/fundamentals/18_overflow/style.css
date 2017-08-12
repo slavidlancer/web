@@ -1,0 +1,26 @@
+div {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: visible;
+}
+
+div.hidden {
+    overflow: hidden;
+}
+
+div.scroll {
+    overflow: scroll;
+}
+
+div.auto {
+    overflow: auto;
+}
+
+div.xy {
+    width: 500px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

@@ -1,0 +1,55 @@
+div.static {
+    position: static;
+    border: 1px solid #73AD21;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 30px;
+    border: 1px solid #73AD21;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #73AD21;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 1px solid #73AD21;
+}
+
+img#w3 {
+    position: absolute;
+    left: 0px;
+    top: 290px;
+    z-index: -1;
+}
+
+img#big {
+    width: 100%;
+    height: auto;
+    opacity: 0.50;
+}
+
+.container {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}

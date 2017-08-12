@@ -1,0 +1,46 @@
+a.highlight:hover {
+    color: black;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+/* p {
+    display: none;
+    background-color: gray;
+    padding: 20px;
+} */
+
+p:first-child {
+    color: red;
+}
+
+p:first-child i {
+    color: lime;
+}
+
+p i:first-child {
+    color: green;
+}
+
+/* div:hover p {
+    background: blue;
+    display: block;
+} */
+
+q:lang(no) {
+    quotes: "~" "~";
+}

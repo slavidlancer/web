@@ -1,0 +1,54 @@
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    width: 500px;
+    padding: 20px;
+}
+
+span.note {
+    font-size: 120%;
+    color: red;
+}
+
+a[target] {
+    background: yellow;
+}
+
+a[target = "_top"] {
+    background: green;
+}
+
+[title~="flower"] {
+    border: 1px solid blue;
+}
+
+[title|="the"] {
+    border: 1px solid red;
+}
+
+[title^="thee"] {
+    border: 1px solid lime;
+}
+
+[class$="cities"] {
+    background: gray;
+    border: 1px solid lime;
+}
+
+[class*="a"] {
+    border: 2px solid black;
+}
+
+input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+input[type="button"] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+}

@@ -1,0 +1,9 @@
+body {
+    /* background-image: url("paper.gif"); */
+    background-image: url("img_tree.png");
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* background-attachment: fixed; */
+    /* background: #ffffff url("img_tree.png") no-repeat fixed right top; */
+}

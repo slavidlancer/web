@@ -1,0 +1,33 @@
+p {
+    margin-top: 100px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+p.marginalized {
+    margin: 25px 50px 75px 100px;
+}
+
+p.paragraph {
+    margin-left: inherit;
+}
+
+div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+div.container {
+    margin-left: 100px;
+    border: 1px solid red;
+}
+
+h1 {
+    margin: 0 0 50px 0;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+}

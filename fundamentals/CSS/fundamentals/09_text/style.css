@@ -1,0 +1,44 @@
+body {
+    color: blue;
+}
+
+p {
+    color: green;
+    text-indent: 50px;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+    word-spacing: 10px;
+    text-shadow: 3px 2px red;
+}
+
+h2 {
+    letter-spacing: -3px;
+    line-height: 0.10;
+}
+
+div {
+    width: 70px;
+    border: 1px solid red;
+    text-align: justify;
+}
+
+div.example {
+    width: 70px;
+    border: 1px solid red;
+    text-align: justify;
+    direction: rtl;
+}

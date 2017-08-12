@@ -1,0 +1,36 @@
+/* a:link {
+    background-color: yellow;
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: cyan;
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgreen;
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: hotpink;
+    color: blue;
+    text-decoration: underline;
+} */
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
