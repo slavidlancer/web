@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Examples</title>
+</head>
+<body>
+    <form action="" method="POST" name="val_form" onsubmit="return validateForm()">
+        name:<br />
+        <input type="text" id="namein" name="name" value="" /> <!-- required="true" -->
+        <br /><br />
+        <input type="submit" id="submitbtn" value="Submit" /> <!-- onclick="submitFn()" -->
+    </form>
+    <br /><br />
+    [1 - 10]
+    <input id="numberin" />
+    <button type="button" onclick="validateNumber()">Validate number value</button>
+    <p id="output">[]</p>
+    <input type="number" id="numberin2" name="number" min="0" max="99" required="true" />
+    <button type="button" onclick="validateNumber2()">Validate number 2</button>
+    <p id="output2">[]</p>
+    <script src="script.js"></script>
+</body>
+</html>

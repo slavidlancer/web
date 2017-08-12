@@ -1,0 +1,22 @@
+var elements = ["element 01", "element 02", "element 03", "element 04"];
+var elements02 = ["element 01", "element 02", "element 03", "element 04"];
+
+document.getElementById("test").innerHTML = elements.toString();
+document.getElementById("test2").innerHTML = elements.join("*");
+document.getElementById("test3").innerHTML = elements.pop() + " | " + elements;
+document.getElementById("test4").innerHTML = elements.push("element 04_02") + " | " + elements;
+document.getElementById("test5").innerHTML = elements.shift() + " | " + elements;
+document.getElementById("test6").innerHTML = elements.unshift("element 00") + " | " + elements;
+elements[0] = "element 00_02";
+elements[elements.length] = "element 05";
+document.getElementById("test7").innerHTML = elements;
+// delete elements[0];
+document.getElementById("test8").innerHTML = elements[0] + " | " + elements;
+// document.getElementById("test9").innerHTML = elements.splice(2, 0, "new 01", "new 02") + " | " + elements;
+document.getElementById("test9").innerHTML = elements.splice(2, 2, "new 01", "new 02") + " | " + elements;
+document.getElementById("test10").innerHTML = elements.splice(0, 1) + " | " + elements;
+var elements03 = elements.concat(elements02);
+document.getElementById("test11").innerHTML = elements03;
+document.getElementById("test12").innerHTML = elements03.concat(elements).concat(elements02).concat("last", "last 02");
+document.getElementById("test13").innerHTML = elements03.slice(2) + " | " + elements03;
+document.getElementById("test14").innerHTML = elements03.slice(2, 4) + " | " + elements03;
