@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>HTML Examples</title>
+</head>
+<body>
+    <div>
+        <form action="" method="POST">
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstnamein" name="firstname" placeholder="[First name ....]" maxlength="1" size="150" />
+            <br/><br/>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastnamein" name="lastname" placeholder="[Last name ....]" value="example" readonly="true" />
+            <br /><br/>
+            <label for="password">Password:</label>
+            <input type="password" id="passwordin" name="password" placeholder="[Password ....]" disabled="true" />
+            <br /><br/>
+            <label for="country">Country:</label>
+            <select id="countryin" name="country">
+                <option value="gb">Great Britain</option>
+                <option value="uk">United Kingdom</option>
+                <option value="en" selected="true">England</option>
+            </select>
+            <br /><br />
+            <textarea id="textareain" name="message" rows="10" cols="10"></textarea>
+            <br /><br />
+            <input list="browsers" />
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox" />
+                <option value="Chrome" />
+                <option value="Opera" />
+                <option value="Safari" />
+            </datalist>
+            <br /><br />
+            encryption: <keygen name="security" />
+            <br /><br />
+            <input type="radio" name="on_off" value="on" />on<br />
+            <input type="radio" name="on_off" value="off" checked="true" />off<br />
+            <br /><br />
+            <input type="checkbox" id="flag1in" name="flag1" value="w" checked="true" />
+            <label for="flag1">white</label><br />
+            <input type="checkbox" id="flag2in" name="flag2" value="b" />
+            <label for="flag2">blue</label><br />
+            <input type="checkbox" id="flag3in" name="flag3" value="r" />
+            <label for="flag3">red</label>
+            <br /><br />
+            <input type="button" onclick="window.alert('alert')" value="alert" />
+            <br /><br />
+            <!-- <input type="submit" id="submitbtn" value="Submit" /> -->
+            <input type="submit" id="submitbtn" />
+            <!-- <input type="reset" id="resetbtn" value="Reset" /> -->
+            <input type="reset" id="resetbtn" />
+        </form>
+</body>
+</html>
